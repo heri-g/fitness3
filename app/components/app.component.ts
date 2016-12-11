@@ -5,10 +5,9 @@ import 'semantic';
 
 @Component({
     selector: 'my-app',
-    templateUrl: `app/components/app.component.html`
+    templateUrl: `app/components/app.component.html`,
+    styleUrls: [`app/components/app.component.css`]
 })
 export class AppComponent {
-    visible: boolean = false;
 
-    setVisibility(data: boolean) { this.visible = data; }
 }

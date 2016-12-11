@@ -1,11 +1,59 @@
-<p></p>
-<div class="ui container">
-    <div class="ui three item menu">
-        <a [routerLink]="['/']" class="item">Home</a>
-        <a [routerLink]="['/reviews']" class="item">Reviews</a>
-        <a [routerLink]="['/events']" class="item">Upcoming Events <div class="ui label orange">protected</div> </a>
-    </div>
-    <h2>Angular 2 QUICKSTART and ngSemantic</h2>
 
-    <router-outlet></router-outlet>
+<!--Desktop Menu-->
+
+<div class="ui large top fixed menu inverted">
+    <div class="ui container">
+        <a class=" active item">Home</a>
+        <a class="item">About</a>
+        <a class="item">Help</a>
+        <div class="right menu">
+            <div class="item">
+                <a class="ui inverted button">Log in</a>
+            </div>
+            <div class="item">
+                <a class="ui inverted button">Sign up</a>
+            </div>
+        </div>
+    </div>
 </div>
+
+<div class="ui inverted masthead center aligned segment">
+    <div class="ui text container">
+        <h1 class="ui inverted header">
+            Fitness For You!
+        </h1>
+        <h2>Live a Healthy Lifestyle Today.</h2>
+        <div class="ui huge primary button">
+            Sign up <i class="right arrow icon"></i>
+        </div>
+    </div>
+</div>
+<!--End of Desktop Menu-->
+
+<!--Mobile Sidebar Menu-->
+
+<!--<div class="ui vertical inverted sidebar menu left">-->
+    <!--<a class="active item">-->
+        <!--::before-->
+        <!--"Home"-->
+    <!--</a>-->
+    <!--<a class="item">-->
+        <!--::before-->
+        <!--"About"-->
+    <!--</a>-->
+    <!--<a class="item">-->
+        <!--::before-->
+        <!--"Help"-->
+    <!--</a>-->
+    <!--<a class="item">-->
+        <!--::before-->
+        <!--"Log in"-->
+    <!--</a>-->
+    <!--<a class="item">-->
+        <!--::before-->
+        <!--"Sign up"-->
+    <!--</a>-->
+    <!--::after-->
+<!--</div>-->
+
+<!--End of Mobile Sidebar Menu-->
